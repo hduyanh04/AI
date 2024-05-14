@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Load data
-df = pd.read_csv('F:\AI Weather Forecast\seattle-weather.csv')
+df = pd.read_csv('seattle-weather.csv')
 
 df['date'] = pd.to_datetime(df['date'], errors='coerce')
 
